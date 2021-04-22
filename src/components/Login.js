@@ -42,7 +42,7 @@ class LogIn extends Component {
           </div>
           <div>
             <label htmlFor="password">Password</label>
-            <input type="password" name="password" />
+            <input type="password" name="password"/>
           </div>
           <button>Log In</button>
         </form>
