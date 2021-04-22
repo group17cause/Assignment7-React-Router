@@ -58,8 +58,8 @@ class Debit extends Component{
             <div>
                 <h1>Debits</h1>
                 <Link to = "/"> Return Home </Link>
-                <form onSubmit={this.handleSubmit}>
-                    <input type = "text" onChange = {this.handleChagne}/>
+                <form onSubmit={this.handleSubmit}> 
+                    <input type = "text" onChange = {this.handleChange}/>
                 </form>
                 <table>
                     <tbody>
