@@ -27,7 +27,7 @@ class App extends Component {
 
   dynamicBalance = (balanceInfo)=>{
     let newBalance = this.state.accountBalance
-    newBalance = newBalance + balanceInfo.totalDebit
+    newBalance = newBalance + balanceInfo
     this.setState({accountBalance : newBalance})
   }
 
