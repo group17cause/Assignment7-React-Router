@@ -9,7 +9,11 @@ class Debit extends Component{
         this.state = {
             apiData:[],
             totalDebit: 0,
-            sentinel: false
+            sentinel: false,
+            debit:{
+                description: "",
+                amount: 0
+            }
         };
     }
 
@@ -52,6 +56,27 @@ class Debit extends Component{
         this.FetchDebit();
     }
 
+    handleDescription = (e) => {
+       const newDesc = {...this.state.debit}
+       const inputField = e.target.name
+       const inputValue = e.target.value
+       newDesc[inputField] = inputValue
+       this.setState({debit: newDesc});
+    }
+
+    handleAmount = (e) => {
+        const newAmt = {...this.state.debit}
+       const inputField = e.target.name
+       const inputValue = e.target.value
+       newAmt[inputField] = inputValue
+       this.setState({debit: newAmt});
+    }
+
+    handleSubmit = (e)=>{
+        e.preventDefault()
+        
+    }
+
 
     render(){
         return(
@@ -59,7 +84,15 @@ class Debit extends Component{
                 <h1>Debits</h1>
                 <Link to = "/"> Return Home </Link>
                 <form onSubmit={this.handleSubmit}> 
-                    <input type = "text" onChange = {this.handleChange}/>
+                <div>
+                    <label htmlFor="descriptino">Description</label>
+                    <input type="text" name="description" onChange={this.handleDescription} value={this.state.debit.description} />
+                </div>
+                <div>
+                    <label htmlFor="amount">Amount</label>
+                    <input type="text" name="amount" onChange = {this.handleAmount} value = {this.state.debit.amount}/>
+                </div>
+                    <button>Add debit</button>
                 </form>
                 <table>
                     <tbody>
