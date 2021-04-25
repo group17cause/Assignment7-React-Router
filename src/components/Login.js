@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Redirect } from 'react-router-dom'
+import { Redirect, Link } from 'react-router-dom'
 
 class LogIn extends Component {
   constructor () {
@@ -44,7 +44,8 @@ class LogIn extends Component {
             <label htmlFor="password">Password</label>
             <input type="password" name="password"/>
           </div>
-          <button>Log In</button>
+          <button>Log In</button><br/>
+          <Link className = "links" to="/">Return Home</Link>
         </form>
       </div>
     )
