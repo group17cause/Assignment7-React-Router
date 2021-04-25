@@ -6,11 +6,13 @@ import {Link} from 'react-router-dom'
       render() {
         return (
             <div>
-              <img src="https://letstalkpayments.com/wp-content/uploads/2016/04/Bank.png" alt="bank"/>
-              <h1>Bank of React</h1>
-               <Link to="/userProfile">User Profile</Link>
-               <Link to="/debit">Debits</Link>
-               <Link to = "/credit">Credits</Link>
+              <img src="../public/bank.jpg" alt="bank"/>
+                <h1>Bank of React</h1>
+               <Link className = "links" to="/userProfile">User Profile</Link>
+               <Link className = "links" to="/login">Login</Link>
+               <Link className = "links" to="/debit">Debits</Link> 
+               <Link className = "links" to = "/credit">Credits</Link> 
+               <h1>Balance</h1> <br/>
               <AccountBalance accountBalance = {this.props.accountBalance} />
             </div>
         );
