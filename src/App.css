@@ -1,4 +1,26 @@
-.App {
+h1, h2{
+  text-align: center;
+}
+
+.links{
+  text-decoration: none;
+  margin: 20px;
+  font-size: larger;
+
+}
+
+label{
+  font-size: 20px;
+  margin-right: 12px;
+ 
+}
+button{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+td{
+  font-size: 20px;
   text-align: center;
 }
 
