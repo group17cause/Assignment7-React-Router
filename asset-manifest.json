@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Assignment7-React-Router/static/css/main.10f7ac6e.chunk.css",
+    "main.js": "/Assignment7-React-Router/static/js/main.7709a069.chunk.js",
+    "main.js.map": "/Assignment7-React-Router/static/js/main.7709a069.chunk.js.map",
+    "runtime-main.js": "/Assignment7-React-Router/static/js/runtime-main.6a6c1466.js",
+    "runtime-main.js.map": "/Assignment7-React-Router/static/js/runtime-main.6a6c1466.js.map",
+    "static/js/2.78ac69e3.chunk.js": "/Assignment7-React-Router/static/js/2.78ac69e3.chunk.js",
+    "static/js/2.78ac69e3.chunk.js.map": "/Assignment7-React-Router/static/js/2.78ac69e3.chunk.js.map",
+    "static/js/3.73558e90.chunk.js": "/Assignment7-React-Router/static/js/3.73558e90.chunk.js",
+    "static/js/3.73558e90.chunk.js.map": "/Assignment7-React-Router/static/js/3.73558e90.chunk.js.map",
+    "index.html": "/Assignment7-React-Router/index.html",
+    "static/css/main.10f7ac6e.chunk.css.map": "/Assignment7-React-Router/static/css/main.10f7ac6e.chunk.css.map",
+    "static/js/2.78ac69e3.chunk.js.LICENSE.txt": "/Assignment7-React-Router/static/js/2.78ac69e3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a6c1466.js",
+    "static/js/2.78ac69e3.chunk.js",
+    "static/css/main.10f7ac6e.chunk.css",
+    "static/js/main.7709a069.chunk.js"
+  ]
+}
