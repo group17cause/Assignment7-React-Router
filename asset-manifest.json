@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Assignment7-React-Router/static/css/main.10f7ac6e.chunk.css",
-    "main.js": "/Assignment7-React-Router/static/js/main.1a696ace.chunk.js",
-    "main.js.map": "/Assignment7-React-Router/static/js/main.1a696ace.chunk.js.map",
+    "main.css": "/Assignment7-React-Router/static/css/main.e35378f8.chunk.css",
+    "main.js": "/Assignment7-React-Router/static/js/main.e5220259.chunk.js",
+    "main.js.map": "/Assignment7-React-Router/static/js/main.e5220259.chunk.js.map",
     "runtime-main.js": "/Assignment7-React-Router/static/js/runtime-main.6a6c1466.js",
     "runtime-main.js.map": "/Assignment7-React-Router/static/js/runtime-main.6a6c1466.js.map",
     "static/js/2.5b62e79c.chunk.js": "/Assignment7-React-Router/static/js/2.5b62e79c.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.73558e90.chunk.js": "/Assignment7-React-Router/static/js/3.73558e90.chunk.js",
     "static/js/3.73558e90.chunk.js.map": "/Assignment7-React-Router/static/js/3.73558e90.chunk.js.map",
     "index.html": "/Assignment7-React-Router/index.html",
-    "static/css/main.10f7ac6e.chunk.css.map": "/Assignment7-React-Router/static/css/main.10f7ac6e.chunk.css.map",
-    "static/js/2.5b62e79c.chunk.js.LICENSE.txt": "/Assignment7-React-Router/static/js/2.5b62e79c.chunk.js.LICENSE.txt"
+    "static/css/main.e35378f8.chunk.css.map": "/Assignment7-React-Router/static/css/main.e35378f8.chunk.css.map",
+    "static/js/2.5b62e79c.chunk.js.LICENSE.txt": "/Assignment7-React-Router/static/js/2.5b62e79c.chunk.js.LICENSE.txt",
+    "static/media/bank.7c9a51bd.jpg": "/Assignment7-React-Router/static/media/bank.7c9a51bd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6a6c1466.js",
     "static/js/2.5b62e79c.chunk.js",
-    "static/css/main.10f7ac6e.chunk.css",
-    "static/js/main.1a696ace.chunk.js"
+    "static/css/main.e35378f8.chunk.css",
+    "static/js/main.e5220259.chunk.js"
   ]
 }
