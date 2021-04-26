@@ -1,3 +1,4 @@
+
 h1, h2{
   text-align: center;
 }
@@ -6,6 +7,14 @@ h1, h2{
   text-decoration: none;
   margin: 20px;
   font-size: larger;
+
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  width : 80vh;
 
 }
 
